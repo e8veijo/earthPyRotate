@@ -15,7 +15,7 @@ fill_sym        = 'å'       # Ocean fill symbol to match map format, normally t
 map_lines       = []
 circ_line_lengths = []
 
-file = open('lines.txt', 'r') # selfie2.txt jorden4.txt eye2.txt world2.txt lines2.txt
+file = open('lines2.txt', 'r') # selfie2.txt jorden4.txt eye2.txt world2.txt lines2.txt
 map_lines = file.readlines()
 
 if not map_lines:
